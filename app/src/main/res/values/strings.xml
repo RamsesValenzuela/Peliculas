@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Peliculas</string>
+    <string name="peli1">The Batman</string>
+    <string name="peli2">Sonic 2 La pelicula</string>
+    <string name="peli3">Uncharted: Fuera del mapa</string>
+    <string name="peli4">Spider-Man: No way home</string>
+    <string name="peli5">Doctor Stranger: in the MULTIVERSE OF MADNESS</string>
+
+
+    <string name="peli1_sinop">El wey disfrazado de murcielago que no te mata pero te deja en coma despues de una golpiza y en su segundo año luchando contra el crimen, Batman explora la corrupción existente en la ciudad de Gotham y el vínculo de esta con su propia familia. Además, entrará en conflicto con un asesino en serie conocido como "el Acertijo".</string>
+    <string name="peli2_sinop">Celebrando la alegría de estar de vuelta con tus mejores amigos, el equipo de idiotas original regresa para otra ronda de situaciones hilarantes, tremendamente absurdas y, a menudo peligrosas con un poco de ayuda de un emocionante nuevo elenco.</string>
+    <string name="peli3_sinop"> El cazador de tesoros Victor Sullivan recluta a Nathan Drake para que lo ayude a recuperar una fortuna de 500 años. Lo que comienza como un atraco se convierte en una carrera de trotamundos para alcanzar el premio.</string>
+    <string name="peli4_sinop">Tras descubrirse la identidad secreta de Peter Parker como Spider-Man, la vida del joven se vuelve una locura. Peter decide pedirle ayuda al Doctor Extraño para recuperar su vida. Pero algo sale mal y provoca una fractura en el multiverso.</string>
+    <string name="peli5_sinop">Ahora que Iron Man y el Capitán América se han ido tras la feroz batalla en Avengers: Endgame, se espera que el ex cirujano y mago más fuerte de todos, el Doctor Strange, tenga un papel activo como figura central en los Vengadores. Sin embargo, usar su magia para manipular el tiempo y el espacio a voluntad con un hechizo prohibido, que es considerado el más peligroso, ha abierto la puerta a una misteriosa locura llamada el Multiverso. Para restaurar un mundo en el que todo está cambiando, Strange busca la ayuda de su aliado Wong, el Hechicero Supremo, y la Avenger más poderosa, Wanda, la Bruja Escarlata. Pero una terrible amenaza se cierne sobre la humanidad y el universo entero que ya no puede ser superada por su poder. Lo más sorprendente es que la mayor amenaza del universo se ve exactamente igual que Doctor Strange</string>
+</resources>
