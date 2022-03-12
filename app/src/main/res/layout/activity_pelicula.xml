@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PeliculaActivity"
+    android:background="@color/Azul_Clarito">
+
+    <ImageView
+        android:id="@+id/img_pelicula"
+        android:layout_width="198dp"
+        android:layout_height="274dp"
+        android:layout_marginTop="76dp"
+        android:src="@drawable/sonic_2"
+        app:layout_constraintBaseline_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_nombreP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="@string/peli2"
+        android:textSize="28sp"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_pelicula" />
+
+    <TextView
+        android:id="@+id/tv_sinopsis"
+        android:layout_width="403dp"
+        android:layout_height="231dp"
+        android:layout_marginTop="36dp"
+        android:text="@string/peli2_sinop"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_nombreP" />
+
+    <TextView
+        android:layout_width="412dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="4dp"
+        android:textSize="28sp"
+        android:textAlignment="center"
+        android:background="@color/Azul"
+        android:textStyle="bold"
+        android:text="@string/nombre_cine"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

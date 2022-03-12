@@ -1,6 +1,7 @@
 package valenzuela.ramses.peliculas
 
 import android.content.Context
+import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -45,6 +46,16 @@ class AdaptadorPelicula: BaseAdapter{
 
         iv_img.setImageResource(pelicula.img)
         tv_nombre.setText(pelicula.nombre)
+
+        vista.setOnClickListener{
+            val intet: Intent = Intent(context, PeliculaActivity::class.java)
+
+            intet.putExtra("nombre",pelicula.nombre)
+            intet.putExtra("sinopsis",pelicula.sipnosis)
+            intet.putExtra("img", pelicula.img)
+
+            context.startActivity(intet)
+        }
 
         return vista
 
